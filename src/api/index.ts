@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { SearchResponse } from '@/types';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://pansou-li39.onrender.com/api',
   timeout: 10000
 });
 
